@@ -2,7 +2,7 @@ import vk_api
 import time
 import sys, traceback
 import datetime
-vk = vk_api.VkApi(token='ebbe94d588065027e84301a672516f07e3a39a454a638332786e69d7b2f6759e76840654993bb5d5a5eec')
+vk = vk_api.VkApi(token='ebbe94d588065027e84301a6454a638332786e69d7b2f6759e76840654993bb5d5a5eec')
 vk._auth_token()
 
 values = {'out':0, 'count':100, 'time_offset':60, 'group_id':160615635}
